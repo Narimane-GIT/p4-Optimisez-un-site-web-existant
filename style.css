@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: #fff;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -16,6 +16,9 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+.img-responsive{
+    width: 100%;
 }
 
 #page-loading-blocs-notifaction {
@@ -89,7 +92,24 @@ a:hover {
     left: 0;
     right: 0;
 }
+.citation {
+    margin: auto;
+}
+.citation-content {
+    font-size: 20px;
+    font-style: oblique;
+}
+.citation-auteur {
+    font-size: 14px;
+}
 
+.mg-md {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.tc-white {
+    color: #FFF;
+}
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -133,7 +153,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -651,7 +671,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+ /*   color: #575757!important;*/
 }
 
 .container {
@@ -677,7 +697,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -738,7 +758,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+.black {
+    color: #000000;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -775,12 +797,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
