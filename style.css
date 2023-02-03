@@ -215,7 +215,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+/*    color: rgba(0, 0, 0, .5);*/
 }
 
 .d-bloc .panel button:hover,
@@ -283,7 +283,9 @@ a:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
+.text-center {
+    text-align: center;
+}
 .voffset {
     margin-top: 30px;
 }
@@ -840,7 +842,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("./img/agence\ la\ pantere.webp");
+    background-image: url("./img/agencelapantere.webp");
 }
 
 .bg-presentation {
@@ -1070,4 +1072,8 @@ h4 {
 }
 a {
     text-decoration: none;
+}
+@media (min-width: 926px) {
+    
+
 }
