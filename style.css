@@ -213,10 +213,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
+/*.d-bloc .panel,
 .l-bloc {
-/*    color: rgba(0, 0, 0, .5);*/
-}
+/*    color: rgba(0, 0, 0, .5);
+}*/
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -1072,8 +1072,4 @@ h4 {
 }
 a {
     text-decoration: none;
-}
-@media (min-width: 926px) {
-    
-
 }
