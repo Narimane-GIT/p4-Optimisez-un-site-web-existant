@@ -119,9 +119,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
+/*.d-bloc {
     color: rgba(255, 255, 255, .7);
-}
+}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -757,8 +757,8 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: #000000!important;
 }
 .black {
     color: #000000;
